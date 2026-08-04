@@ -1,0 +1,32 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: angellllkr-estate
+  labels:
+    app: angellllkr-estate
+spec:
+  type: ClusterIP
+  selector:
+    app: angellllkr-estate
+  ports:
+  - name: http
+    port: 80
+    targetPort: http
+    protocol: TCP
+  sessionAffinity: None
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: angellllkr-estate-lb
+  labels:
+    app: angellllkr-estate
+spec:
+  type: LoadBalancer
+  selector:
+    app: angellllkr-estate
+  ports:
+  - name: http
+    port: 8080
+    targetPort: http
+    protocol: TCP

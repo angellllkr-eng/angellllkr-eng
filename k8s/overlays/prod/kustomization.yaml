@@ -1,0 +1,26 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+namespace: prod
+
+namePrefix: prod-
+
+commonLabels:
+  environment: prod
+
+bases:
+  - ../../base
+
+replicas:
+  - name: angellllkr-estate
+    count: 3
+
+patchesStrategicMerge:
+  - deployment.yaml
+
+configMapGenerator:
+  - name: angellllkr-config
+    behavior: merge
+    literals:
+      - environment=production
+      - log_level=warn

@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: angellllkr-estate
+spec:
+  replicas: 1
+  template:
+    spec:
+      containers:
+      - name: angellllkr-estate
+        resources:
+          requests:
+            cpu: 50m
+            memory: 64Mi
+          limits:
+            cpu: 200m
+            memory: 256Mi

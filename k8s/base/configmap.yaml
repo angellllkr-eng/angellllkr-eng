@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: angellllkr-config
+  labels:
+    app: angellllkr-estate
+data:
+  environment: "production"
+  log_level: "info"
+  service_name: "A11-K Estate"
+  brands: |
+    MindReply,A11-K,AUREL,AM Service,Asset Forge
