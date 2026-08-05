@@ -1,0 +1,50 @@
+copilot_limits:
+  - id: exec_code
+    title: "Execute code or scripts"
+    description: "Cannot run Python, PowerShell, Bash, or any code on real machines."
+    offload_to: "runtime_orchestration"
+
+  - id: system_access
+    title: "Access local files, OS, or hardware"
+    description: "Cannot read/write local disk, inspect processes, or control devices."
+    offload_to: "system_agent"
+
+  - id: network_ops
+    title: "Direct network operations"
+    description: "Cannot open sockets, call arbitrary APIs, or manage firewalls/VPNs."
+    offload_to: "net_ops_agent"
+
+  - id: automation_control
+    title: "Real automation and scheduling"
+    description: "Cannot trigger cron jobs, CI/CD, or workflow engines."
+    offload_to: "automation_orchestrator"
+
+  - id: identity_auth
+    title: "Authentication and signing"
+    description: "Cannot log in, sign documents, or use credentials."
+    offload_to: "identity_service"
+
+  - id: financial_ops
+    title: "Handle money or assets"
+    description: "Cannot move funds, trade, buy assets, or manage accounts."
+    offload_to: "finance_stack"
+
+  - id: legal_ops
+    title: "Legal actions"
+    description: "Cannot file, sign, or submit legally binding documents."
+    offload_to: "legal_ops_stack"
+
+  - id: physical_world
+    title: "Physical-world control"
+    description: "Cannot control robots, IoT, or any physical devices."
+    offload_to: "iot_or_robotics"
+
+  - id: persistent_state
+    title: "Long-term autonomous operation"
+    description: "Cannot run as a daemon, maintain its own uptime, or self-schedule."
+    offload_to: "agent_runtime"
+
+  - id: data_privacy_control
+    title: "Direct data governance"
+    description: "Cannot enforce policies on storage, retention, or encryption."
+    offload_to: "data_governance_layer"
