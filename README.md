@@ -1,51 +1,47 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/angellllkr-eng/angellllkr-eng/main/avatar.svg" width="80" height="80" alt="MindReply release engineering and automation systems" />
+  <img src="https://raw.githubusercontent.com/angellllkr-eng/angellllkr-eng/main/avatar.svg" width="80" height="80" alt="Angel K — proof-led product and release systems" />
 </p>
 
-<h1 align="center">Angel K · MindReply Proofline</h1>
+<h1 align="center">Angel K · Proof-led product systems</h1>
 
-<p align="center"><strong>Release engineering, proof-led automation, and owner-governed operational systems.</strong></p>
+<p align="center"><strong>Human-first products, governed automation, verified releases, and owner-controlled infrastructure.</strong></p>
 
-## What I build
+## Portfolio map
 
-I turn fragile repositories and disconnected automations into systems that can be verified, approved, released, monitored, and recovered. The work combines GitHub architecture, CI/CD security, Python services, payment workflows, observability, and human approval gates.
-
-## Canonical estate map
-
-| Repo | Role | Notes |
+| Repository | Native role | Boundary |
 |---|---|---|
-| [`mind-reply-core`](https://github.com/angellllkr-eng/mind-reply-core) | Product root | Active product runtime, starter systems, frontends, and reusable product patterns |
-| [`agent-control-plane`](https://github.com/angellllkr-eng/agent-control-plane) | Operational root | Approvals, evidence, release control, and long-lived automation governance |
-| [`saas-starter`](https://github.com/angellllkr-eng/saas-starter) | Prototype starter | Mobile-first SaaS starter with Clerk, Prisma, Supabase, Stripe, tests, and deployment docs |
-| [`a11k-surface`](https://github.com/angellllkr-eng/a11k-surface) | Satellite console | Private historical foundation and transition layer for the A11-K dialogue surface |
-| [`mindreply`](https://github.com/angellllkr-eng/mindreply) | Legacy production archive | Old production bundle kept for migration, comparison, and evidence |
+| [`mind-reply-core`](https://github.com/angellllkr-eng/mind-reply-core) | MindReply Core | public product engineering and reusable foundations |
+| [`agent-control-plane`](https://github.com/angellllkr-eng/agent-control-plane) | A11 Control Plane | private governance, approvals, agents and operations |
+| [`a11k-surface`](https://github.com/angellllkr-eng/a11k-surface) | A11-K Surface | private command experience and interaction experiments |
+| [`nexus-core`](https://github.com/angellllkr-eng/nexus-core) | Nexus | provider-neutral integration fabric |
+| [`saas-starter`](https://github.com/angellllkr-eng/saas-starter) | Phone-first starter | portable product foundation for prototypes |
+| [`mindreply`](https://github.com/angellllkr-eng/mindreply) | Legacy / migration | historical production material and migration evidence |
 
-## Operating language
+## Different products, different language
 
-| Term | Meaning |
-|---|---|
-| **Proofline** | Evidence from change to verified release |
-| **Crownline** | Owner approval and command boundary |
-| **ProofGate** | Blocking validation before merge or deployment |
-| **ReplyRail** | Approved messaging, voice, and fulfillment workflow |
-| **Continuity Ledger** | Durable operational context and decision history |
-| **Reality Delta** | Difference between a claim and current verified state |
-| **Signalcraft Audit** | Evidence-led GitHub and Python technical-commercial review |
+The portfolio deliberately avoids one vocabulary everywhere:
 
-Each branded term is paired with plain language so the portfolio remains searchable, usable, and understandable.
+- **MindReply:** Proof · Route · Signal · Commit · Reality
+- **A11-K:** Thread · Pulse · Relay · Guardrail · Receipt · Return
+- **Nexus:** Bridge · Parcel · Contract · Watch · Replay
+- **Phone-first:** Moment · Next · Check · Return
+- **MindReply commercial:** Rescue · Follow-through · Relay · Commitments
 
-## Operating principles
+The names describe different jobs, not decorative branding. Every public claim must remain understandable in plain language.
 
-- Evidence before claims.
-- Human approval before consequential action.
-- Immutable release identity and practical rollback.
-- Secrets stay in protected environment stores.
-- Automation receives bounded permissions, not blanket authority.
-- Public, private, personal, and self-growth work stay separated by repo and permission boundary.
+## Operating standard
 
-## Focus areas
+Evidence before claims. Human approval before consequential action. Provider-neutral interfaces before vendor lock-in. Accessibility before polish. Recovery before optimism.
 
-`GitHub repository audit` · `Python automation` · `CI/CD security` · `release engineering` · `Stripe fulfillment` · `n8n workflows` · `Zapier` · `Next.js` · `FastAPI` · `Supabase` · `vector search`
+The estate distinguishes **verified**, **observed**, **inferred**, **planned**, **stale**, and **unknown** state. A green badge is never a substitute for telemetry.
+
+## Automation philosophy
+
+Workflow engines such as n8n and Zapier-compatible webhooks are adapters, not the source of truth. Vector retrieval is a derived index with provenance. GitHub is the release-control surface. Postgres-compatible storage remains portable across managed and self-hosted environments.
+
+## Focus
+
+`product systems` · `release engineering` · `CI/CD` · `Next.js` · `Python` · `Postgres` · `Supabase` · `Stripe` · `n8n` · `webhooks` · `vector retrieval` · `observability`
 
 ---
 
